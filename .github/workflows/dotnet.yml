@@ -30,3 +30,4 @@ jobs:
       working-directory: WpfAppExample
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      working-directory: WpfAppExample
