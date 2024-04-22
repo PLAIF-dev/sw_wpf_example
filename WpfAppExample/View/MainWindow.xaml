@@ -3,28 +3,27 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfAppExample"
         xmlns:vm ="clr-namespace:WpfAppExample.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
-        <vm:MainVM></vm:MainVM>
+        <vm:MainVM />
     </Window.DataContext>
     
     <Grid>
 
         <Grid.RowDefinitions>
 
-            <RowDefinition Height="70"></RowDefinition>
-            <RowDefinition Height="200"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
-            
+            <RowDefinition Height="70" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="50" />
+
         </Grid.RowDefinitions>
 
         <Border Grid.Row="0" >
-            <TextBlock  Text="PLAIF WPF ON BOARDING"
+            <TextBlock  Text="PLAIF WPF ONBOARDING"
                         FontSize="50"
                         Foreground="#FF0BCDFF"
                         HorizontalAlignment="Center"/>
